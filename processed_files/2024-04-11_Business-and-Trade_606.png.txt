@@ -1,0 +1,25 @@
+Asylum: Age Assurance
+
+Sir John Hayes: [19252]
+To ask the Secretary of State for the Home Department, how many and what proportion
+of young asylum seekers have been identified as being over the age of 18 following (a)
+age verification and (b) identity checks in each of the last five years.
+Tom Pursglove:
+The Home Office publishes data on asylum in the ‘immigration System Statistics
+Quarterly Release’. Data on asylum applications by age is published in table
+Asy_DO1 of the ‘Asylum applications, decisions and resettlement detailed datasets’,
+The latest data relates to 2023.
+Data on age disputes is published in table Asy_DOS of the ‘Age disputes detailed
+dataset’. The latest data relates to the year ending September 2023.
+
+Information on how to use these datasets can be found in the ‘Notes’ page of each
+workbook. Additionally, the Home Office publishes a high-level overview of the data
+in the ‘summary tables’. The ‘contents’ sheet contains an overview of all available
+data on asylum applications by age and age disputes.
+
+Please note that an age dispute could, for example, be resolved following: a Merton
+compliant age assessment; receipt of credible and clear documentary evidence of
+‘age; a judicial finding on age; following a determination by two Home Office officers
+that the person's physical appearance and demeanour very strongly suggests they
+are significantly over the age of 18; or, where the reasons for raising an age dispute
+no longer apply.

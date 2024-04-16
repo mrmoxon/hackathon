@@ -1,0 +1,28 @@
+Kevin Brennan: (19004)
+‘To ask the Secretary of Stato forthe Home Department, what recent estimate he has
+‘made ofthe numberof individuals misidentiid by the Home Office Person Centric Data
+Platform inthe last 12 months.
+
+Kevin Brennan: (1a0081
+
+‘To ask the Secretar of Stato for the Home Department, what steps he is taking to rectiy
+the misidentfication of indviduas by the Home Office Person Centic Data Patform,
+‘Tom Pursglove:
+‘The Person Centric Data Patform (PCOP) holds millons of identities that have been
+submited or otherwise provided in suppor of immigration applications. Individuals
+have not been ‘misidentified by the PCOP. Rather, the Home Office has fr some
+time been aware of ssues around ‘merged ident’ - where a single dent island™
+has been formed with data belonging to two or mare individual.
+“The ‘merged identities issue affects around 0.02% of PCDP customer records - over
+99.98% of records are not impacted by this issue. We have identifed around 46,000
+records with an identity isue, of which over 13,000 have already been resolved and
+‘we havea dedicated team working onthe remainder.
+
+y Report Monday, 25 March 2024 ANSWERS 9
+
+‘The Home Office takes data secutity and accuracy vary seriously. We continue
+detailed analysis to identify erroneous PCOP records so that appropriate remedial
+‘work can be undertaken as quickly, and as carefully, as possible.
+
+‘Where customers identity an issue with ther data, we encourage them to contact the
+UK Visas and immigration Contact Cente to enable this tobe investigated and
