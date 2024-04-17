@@ -141,7 +141,7 @@ def show_openq():
         selected_minister = st.selectbox("Search by Minister", ministers + ["See More..."])
 
         # Dropdown for Department
-        departments = ["Aid and Development", "Environment", "Health", "Education", "Finance"]
+        departments = ["Aid and Development", "Environment", "Health", "Education", "Business and Trade"]
         selected_departments = st.selectbox("Search by Department", departments + ["See More..."])
 
         # Text area for input
