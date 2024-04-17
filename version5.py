@@ -7,9 +7,14 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import os
 
-client = OpenAI(
-    api_key=""
-)
+from dotenv import load_dotenv
+load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_client = openai.Client(api_key=openai_api_key)
+
+# client = OpenAI(
+#     api_key=""
+# )
 
 def extract_text_from_pdf(pdf_file):
     pdf_reader = PyPDF2.PdfReader(pdf_file)
@@ -35,7 +40,7 @@ def summarize_text(text):
     Department for Levelling Up, Housing and Communities: local government, housing, urban regeneration, building safety, community cohesion.
     Foreign, Commonwealth & Development Office: foreign policy, overseas aid, diplomacy, international development.
     """
-    completion = client.chat.completions.create(
+    completion = openai_client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": f"You are a helpful assistant. Here is information about UK ministerial departments: {department_info}"},
@@ -46,7 +51,7 @@ def summarize_text(text):
 
 def draft_response(text):
     # Create a chat completion to draft a response to the document
-    completion = client.chat.completions.create(
+    completion = openai_client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "Draft a high-quality, clear, accurate, and helpful reply that answers all points raised in the correspondence, quotes any reference numbers and include the date the initial correspondence was sent. Address the response to the MP who sent the enquiry."},
@@ -57,7 +62,7 @@ def draft_response(text):
 
 def refine_response(original_text, style_preferences):
     # OpenAI API call to refine the response based on user stylistic preferences
-    completion = client.chat.completions.create(
+    completion = openai_client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": f"Revise the following text according to the user's stylistic preferences: {style_preferences}."},
